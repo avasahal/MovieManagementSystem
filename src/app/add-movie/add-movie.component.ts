@@ -46,7 +46,7 @@ export class AddMovieComponent implements OnInit {
       } else {
       const movie = this.addForm.value as Movies;
      // you need to generate a uuid for every new entry
-      movie.imbdID = uuid.v4();
+      //movie.imbdID = uuid.v4();
       this.dataService.add(movie);
       }
       
